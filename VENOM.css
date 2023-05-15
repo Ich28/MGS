@@ -1,0 +1,168 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    background-color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    main p {
+        font-size: 18px;
+    }
+
+    main #citacao p {
+        font-size: 10px;
+    }
+
+    main h1 {
+        font-size: 28px;
+    }
+
+    nav #navd a {
+        font-size: 10.5px;
+    }
+
+}
+
+header {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    height: auto;
+    align-items: center;
+}
+
+@font-face {
+    font-family: 'MGS2';
+    src: url(MGS2.ttf);
+}
+
+header h1 {
+    color: white;
+    font-size: 5vw;
+    font-family: 'MGS2';
+}
+
+header div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+header img {
+    height: 15vw;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    height: 4vw;
+    flex-direction: row;
+}
+
+nav div {
+    display: flex;
+    width: 80%;
+    margin-left: 6.8%;
+}
+nav div a {
+    margin-top: 2%;
+    font-size: 1.2vw;
+    font-family: 'MGS2';
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: rgb(66, 66, 66);
+    text-decoration: underline;
+}
+
+main {
+    height: auto;
+    width: 80%;
+    background-color: white;
+    padding: 2%;
+    border-radius: 8px;
+}
+
+img {
+    padding: 1%;
+    border-radius: 8%;
+}
+
+main img {
+    animation-name: p;
+    animation-duration: 0.5s;
+}
+
+main p {
+    animation-name: p;
+    animation-duration: 1s;
+
+}
+
+@keyframes p {
+    0% {
+        margin-left: -100%;
+        opacity: 0%;
+    }
+    100% {
+        margin-left: 0%;
+        opacity: 100%;
+    }
+}
+
+#citacao {
+    padding: 8%;    
+    text-align:justify;
+}
+
+#citacao p {
+    font-size: 1vw;
+}
+
+p {
+    text-indent: 8px;
+    margin-top: 18px;
+    font-size: 1.5vw;
+}
+
+h2 {
+    font-family: 'MGS2';
+    font-size: 2.5vw;
+    margin-top: 18px;
+}
+
+h4 {
+    font-family: 'MGS2';
+    font-size: 3vw;
+    margin-top: 18px;
+}
+
+#pp1 {
+    height: 18vw;
+    float: right;
+    width: 40%;
+}
+
+#pp2 {
+    height: 18vw;
+    float: left;
+    width: 40%;
+}
+
+#pp3 {
+    height: 18vw;
+    float: right;
+    width: 40%;
+}
+
+#pp4 {
+    height: 18vw;
+    float: left;
+    width: 40%;
+}

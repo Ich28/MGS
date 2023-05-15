@@ -1,0 +1,192 @@
+* {
+    margin: 0 auto;
+}
+header {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    background-color: black;
+}
+
+@font-face {
+    font-family: 'MGS2';
+    src: url(MGS2.ttf);
+}
+
+@media only screen and (max-width: 600px) {
+    main p {
+        font-size: 58px;
+    }
+
+    main #citacao p {
+        font-size: 10px;
+    }
+
+    #main {
+        height: 1080px;
+    }
+    main h3 {
+        font-size: 28px;
+    }
+
+    main h4 {
+        font-size: 28px;
+    }
+
+    body main {
+        height: 144vw;
+    }
+    nav #navd a {
+        font-size: 10.5px;
+    }
+
+}
+
+header div {
+    width: 100%;
+    flex: 1;
+}
+
+header div#simb1 {
+    display: flex;
+    width: 33.3%;
+}
+
+header div#simb1 img {
+    height: 13vw;
+    text-align: center;
+}
+
+header div#OUTER-HEAVEN {
+    display: flex;
+    width: 33.3%;
+}
+header div#OUTER-HEAVEN h1 {
+    display: flex;
+    color: white;
+    font-size: 5vw;
+    font-family: 'MGS2';
+    align-items: center;
+}
+
+header div#simb2 {
+    display: flex;
+    width: 33.3%;
+}
+
+header div#simb2 img {
+    height: 13vw;
+    text-align: right;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    height: 4vw;
+    flex-direction: row;
+}
+
+
+nav div {
+    display: flex;
+    width: 80%;
+}
+nav div a {
+    margin-top: 2%;
+    font-size: 18px;
+    font-family: 'MGS2';
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: rgb(66, 66, 66);
+    text-decoration: underline;
+}
+
+body {
+    background-color: black;
+}
+
+main {
+    height: 210vw;
+    width: 80%;
+    background-color: white;
+}
+
+@keyframes OH {
+    0% {
+        left: -1000px;
+        opacity: 0;
+    }
+
+    100% {
+        left: 0px;
+        opacity: 1;
+    }
+}
+main p {
+    font-family: 'Gotham Medium';
+    font-size: 1.5vw;
+    text-align: justify;
+    text-indent: 2vw; 
+    animation-name: OH;
+    animation-duration: 3s;   
+    padding: 2%;
+}
+
+main img {
+    animation-name: OH;
+    animation-duration: 1s;
+    position: relative;
+    padding: 2%;
+}
+
+main h1 {
+    font-family: 'MGS2';
+    font-size: 5vw;
+    text-indent: 8%;
+}
+
+#MSF {
+    height: 18vw;
+    float: left;
+    width: 25%;
+}
+
+#DD {
+    height: 18vw;
+    float: right;
+    width: 30%;
+}
+
+#ZL {
+    height: 18vw;
+    float: left;
+    width: 20%;
+}
+
+#GoP {
+    height: 18vw;
+    float: right;
+    width: 30%;;
+}
+
+footer {
+    background-color: rgb(36, 36, 36);
+    height: 10vw;
+    align-items: center;
+    text-align: center;
+}
+
+footer p {
+    font-family: 'MGS2';
+    font-size: 1.5vw;
+    color: white;
+}
+
+footer a {
+    font-family: 'MGS2';
+    font-size: 1.5vw;
+    color: white; 
+}
