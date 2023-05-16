@@ -11,10 +11,36 @@ body {
         font-size: 18px;
     }
 
+    main h2 {
+        font-size: 28px;
+    }
+
+    main h4 {
+        font-size: 28px;
+    }
     main #citacao p {
         font-size: 10px;
     }
 
+    main #pp1 {
+        height: 200px;
+        width: 60%;
+    }
+
+    main #pp2 {
+        height: 200px;
+        width: 60%;
+    }
+
+    main #pp3 {
+        height: 200px;
+        width: 60%;
+    }
+
+    main #pp4 {
+        height: 200px;
+        width: 60%;
+    }
     main h1 {
         font-size: 28px;
     }
@@ -103,7 +129,6 @@ main img {
 main p {
     animation-name: p;
     animation-duration: 1s;
-
 }
 
 @keyframes p {

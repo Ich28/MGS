@@ -1,0 +1,65 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    background-color: black;
+}
+
+@font-face {
+    font-family: 'MGS2';
+    src: url(MGS2.ttf);
+}
+
+header {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    height: auto;
+    align-items: center;
+}
+
+
+header h1 {
+    color: white;
+    font-size: 5vw;
+    font-family: 'MGS2';
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    height: 4vw;
+    flex-direction: row;
+}
+
+nav div {
+    display: flex;
+    flex: 1;
+    width: 80%;
+    margin-left: 5.5%;
+}
+
+nav div a {
+    margin-top: 2%;
+    font-size: 1.2vw;
+    font-family: 'MGS2';
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    height: auto;
+    width: 80%;
+    background-color: white;
+    padding: 2%;
+    border-radius: 8px;
+}
+
+main div {
+    flex: 1;
+}
+
+main div:hover {
+    border: solid red 2px;
+}
